@@ -45,6 +45,9 @@
             <mxPoint x="30" y="700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Xcqm90v9vEsy14yosfEi-65" parent="7baba1c4bc27f4b0-2" style="rounded=0;whiteSpace=wrap;html=1;" value="Precondition: Game Launched, Unregistered User" vertex="1">
+          <mxGeometry height="20" width="280" x="-110" y="60" as="geometry" />
+        </mxCell>
         <mxCell id="7baba1c4bc27f4b0-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" value="System Logic" vertex="1">
           <mxGeometry height="770" width="100" x="650" y="80" as="geometry" />
         </mxCell>
@@ -101,22 +104,16 @@
           <mxGeometry height="210" width="10" x="45" y="230" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" value="User" vertex="1">
-          <mxGeometry height="770" width="100" x="280" y="80" as="geometry" />
+          <mxGeometry height="770" width="100" x="260" y="80" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-9" parent="7baba1c4bc27f4b0-8" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" value="" vertex="1">
           <mxGeometry height="410" width="10" x="45" y="100" as="geometry" />
         </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-14" edge="1" parent="7baba1c4bc27f4b0-8" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=horizontal;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="7baba1c4bc27f4b0-2" value="3. Enters User ID &amp;amp; Password">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="140" y="190" />
-            </Array>
-            <mxPoint x="55" y="170" as="sourcePoint" />
-            <mxPoint x="175" y="170" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Xcqm90v9vEsy14yosfEi-15" edge="1" parent="7baba1c4bc27f4b0-8" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="7baba1c4bc27f4b0-2" value="4. Submits Input Data">
           <mxGeometry relative="1" width="80" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="200" />
+            </Array>
             <mxPoint x="50" y="200" as="sourcePoint" />
             <mxPoint x="130" y="200" as="targetPoint" />
           </mxGeometry>
@@ -127,13 +124,22 @@
             <mxPoint x="130" y="660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Xcqm90v9vEsy14yosfEi-60" parent="7baba1c4bc27f4b0-8" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="100" width="10" x="45" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="Xcqm90v9vEsy14yosfEi-64" edge="1" parent="7baba1c4bc27f4b0-8" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="7baba1c4bc27f4b0-2" value="&lt;span style=&quot;font-family: Verdana; font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;3. Enters User ID &amp;amp; Password&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="60" y="160" as="sourcePoint" />
+            <mxPoint x="140" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="7baba1c4bc27f4b0-11" edge="1" parent="1" source="7baba1c4bc27f4b0-9" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" target="7baba1c4bc27f4b0-10" value="1. Selects sign-up">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="400" y="190" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Xcqm90v9vEsy14yosfEi-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="User" vertex="1">
-          <mxGeometry height="60" width="30" x="240" y="60" as="geometry" />
+          <mxGeometry height="60" width="30" x="220" y="80" as="geometry" />
         </mxCell>
         <mxCell id="Xcqm90v9vEsy14yosfEi-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Special Requirement:&lt;div&gt;Hashed Password&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="110" x="740" y="360" as="geometry" />
@@ -169,6 +175,9 @@
           <mxGeometry relative="1" x="-0.0112" y="-8" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Xcqm90v9vEsy14yosfEi-59" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="UC-01 Sequence Diagram - Sign-up" vertex="1">
+          <mxGeometry height="30" width="200" x="240" y="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
