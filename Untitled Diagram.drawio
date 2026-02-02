@@ -47,10 +47,16 @@
             <mxPoint x="210" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Xcqm90v9vEsy14yosfEi-25" edge="1" parent="7baba1c4bc27f4b0-2" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="7baba1c4bc27f4b0-8" value="5a.ii.&amp;nbsp;&amp;nbsp;">
+        <mxCell id="Xcqm90v9vEsy14yosfEi-25" edge="1" parent="7baba1c4bc27f4b0-2" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="7baba1c4bc27f4b0-8" value="5a.ii. Warns to complete fields correctly&amp;nbsp;&amp;nbsp;">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="110" y="620" as="sourcePoint" />
             <mxPoint x="30" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xcqm90v9vEsy14yosfEi-57" edge="1" parent="7baba1c4bc27f4b0-2" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="7baba1c4bc27f4b0-8" value="Returns to Main Screen">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="700" as="sourcePoint" />
+            <mxPoint x="30" y="700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" value="System Logic" vertex="1">
@@ -93,6 +99,9 @@
             <mxPoint x="50" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Xcqm90v9vEsy14yosfEi-58" parent="7baba1c4bc27f4b0-3" style="rounded=0;whiteSpace=wrap;html=1;" value="User uses correct information (Resume Step 5)" vertex="1">
+          <mxGeometry height="30" width="260" x="-175" y="720" as="geometry" />
+        </mxCell>
         <mxCell id="7baba1c4bc27f4b0-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" value="Database" vertex="1">
           <mxGeometry height="760" width="100" x="770" y="80" as="geometry" />
         </mxCell>
@@ -118,6 +127,12 @@
           <mxGeometry relative="1" width="80" as="geometry">
             <mxPoint x="50" y="200" as="sourcePoint" />
             <mxPoint x="130" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xcqm90v9vEsy14yosfEi-56" edge="1" parent="7baba1c4bc27f4b0-8" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="7baba1c4bc27f4b0-2" value="5.a.ii.1 Presses &quot;Cancel&quot;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="50" y="660" as="sourcePoint" />
+            <mxPoint x="130" y="660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-11" edge="1" parent="1" source="7baba1c4bc27f4b0-9" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" target="7baba1c4bc27f4b0-10" value="1. Selects sign-up">
