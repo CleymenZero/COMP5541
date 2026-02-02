@@ -1,0 +1,3 @@
+# Ignore exported diagrams by default (optional)
+diagrams/exported/*
+# If you want to keep specific exported images, add them explicitly to the repo (do not list them here).
