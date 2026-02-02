@@ -41,6 +41,18 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Xcqm90v9vEsy14yosfEi-24" edge="1" parent="7baba1c4bc27f4b0-2" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="7baba1c4bc27f4b0-2" value="Return error message">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="600" as="sourcePoint" />
+            <mxPoint x="210" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xcqm90v9vEsy14yosfEi-25" edge="1" parent="7baba1c4bc27f4b0-2" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="7baba1c4bc27f4b0-8" value="5a.ii.&amp;nbsp;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="620" as="sourcePoint" />
+            <mxPoint x="30" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="7baba1c4bc27f4b0-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" value="System Logic" vertex="1">
           <mxGeometry height="770" width="100" x="630" y="80" as="geometry" />
         </mxCell>
@@ -74,6 +86,12 @@
         </mxCell>
         <mxCell id="Xcqm90v9vEsy14yosfEi-21" parent="7baba1c4bc27f4b0-3" style="rounded=0;whiteSpace=wrap;html=1;" value="End Use Case (Success)" vertex="1">
           <mxGeometry height="30" width="270" x="-180" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="Xcqm90v9vEsy14yosfEi-23" edge="1" parent="7baba1c4bc27f4b0-3" source="7baba1c4bc27f4b0-4" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="Return error (Invalid ID/Weak password)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="580" as="sourcePoint" />
+            <mxPoint x="50" y="580" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" value="Database" vertex="1">
           <mxGeometry height="760" width="100" x="770" y="80" as="geometry" />
