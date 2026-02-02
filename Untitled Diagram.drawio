@@ -12,8 +12,8 @@
         </mxCell>
         <mxCell id="Xcqm90v9vEsy14yosfEi-3" edge="1" parent="7baba1c4bc27f4b0-2" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="7baba1c4bc27f4b0-8" value="Displays Sign-up fields">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="45" y="130" as="sourcePoint" />
-            <mxPoint x="-35" y="130" as="targetPoint" />
+            <mxPoint x="105" y="130" as="sourcePoint" />
+            <mxPoint x="-5.5" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-17" edge="1" parent="7baba1c4bc27f4b0-2" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" target="7baba1c4bc27f4b0-3" value="5. Validate Input">
@@ -47,7 +47,7 @@
             <mxPoint x="210" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Xcqm90v9vEsy14yosfEi-25" edge="1" parent="7baba1c4bc27f4b0-2" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="7baba1c4bc27f4b0-8" value="5a.ii.&amp;nbsp;">
+        <mxCell id="Xcqm90v9vEsy14yosfEi-25" edge="1" parent="7baba1c4bc27f4b0-2" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="7baba1c4bc27f4b0-8" value="5a.ii.&amp;nbsp;&amp;nbsp;">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="110" y="620" as="sourcePoint" />
             <mxPoint x="30" y="620" as="targetPoint" />
@@ -105,7 +105,7 @@
         <mxCell id="7baba1c4bc27f4b0-9" parent="7baba1c4bc27f4b0-8" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" value="" vertex="1">
           <mxGeometry height="410" width="10" x="45" y="100" as="geometry" />
         </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-14" edge="1" parent="7baba1c4bc27f4b0-8" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=horizontal;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;entryX=0.473;entryY=0.295;entryDx=0;entryDy=0;entryPerimeter=0;" target="7baba1c4bc27f4b0-2" value="3. Enters User ID &amp;amp; Password">
+        <mxCell id="7baba1c4bc27f4b0-14" edge="1" parent="7baba1c4bc27f4b0-8" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=horizontal;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="7baba1c4bc27f4b0-2" value="3. Enters User ID &amp;amp; Password">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="140" y="190" />
