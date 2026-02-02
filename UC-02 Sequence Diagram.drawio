@@ -10,7 +10,7 @@
         <mxCell id="kzmhXLF93pvinsaZ1gIr-2" parent="kzmhXLF93pvinsaZ1gIr-1" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" value="" vertex="1">
           <mxGeometry height="170" width="10" x="105" y="100" as="geometry" />
         </mxCell>
-        <mxCell id="kzmhXLF93pvinsaZ1gIr-4" edge="1" parent="kzmhXLF93pvinsaZ1gIr-1" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" target="kzmhXLF93pvinsaZ1gIr-8" value="5. Validate Input">
+        <mxCell id="kzmhXLF93pvinsaZ1gIr-4" edge="1" parent="kzmhXLF93pvinsaZ1gIr-1" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" target="kzmhXLF93pvinsaZ1gIr-8" value="2. Validate Input">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="180" y="130" />
@@ -77,7 +77,7 @@
             <mxPoint x="229.5" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kzmhXLF93pvinsaZ1gIr-32" connectable="0" parent="kzmhXLF93pvinsaZ1gIr-31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5a. Validation Failed" vertex="1">
+        <mxCell id="kzmhXLF93pvinsaZ1gIr-32" connectable="0" parent="kzmhXLF93pvinsaZ1gIr-31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2a. Validation Failed" vertex="1">
           <mxGeometry relative="1" x="-0.0112" y="-8" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -88,11 +88,14 @@
             <mxPoint x="-135.25" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kzmhXLF93pvinsaZ1gIr-16" parent="kzmhXLF93pvinsaZ1gIr-8" style="rounded=0;whiteSpace=wrap;html=1;" value="User uses correct information (Resume Step 5)" vertex="1">
+        <mxCell id="kzmhXLF93pvinsaZ1gIr-16" parent="kzmhXLF93pvinsaZ1gIr-8" style="rounded=0;whiteSpace=wrap;html=1;" value="User uses correct information (Resume Step 2)" vertex="1">
           <mxGeometry height="30" width="260" x="-170" y="480" as="geometry" />
         </mxCell>
+        <mxCell id="QpQHaLhZ6wXpXfL-GevX-5" parent="kzmhXLF93pvinsaZ1gIr-8" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="45" y="350" as="geometry" />
+        </mxCell>
         <mxCell id="kzmhXLF93pvinsaZ1gIr-18" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" value="Database" vertex="1">
-          <mxGeometry height="495" width="100" x="930" y="125" as="geometry" />
+          <mxGeometry height="475" width="100" x="930" y="125" as="geometry" />
         </mxCell>
         <mxCell id="kzmhXLF93pvinsaZ1gIr-19" parent="kzmhXLF93pvinsaZ1gIr-18" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="75" width="10" x="45" y="135" as="geometry" />
