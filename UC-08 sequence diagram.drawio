@@ -1,9 +1,168 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6">
   <diagram name="Page-1" id="DT7E224SUrIm2vetu3Kr">
-    <mxGraphModel>
+    <mxGraphModel dx="2305" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="La-a-9KwHDNKzC9Kfb5N-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;size=65;" value="User" vertex="1">
+          <mxGeometry height="1427" width="35" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="La-a-9KwHDNKzC9Kfb5N-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="Game UI" vertex="1">
+          <mxGeometry height="1427" width="150" x="263" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="La-a-9KwHDNKzC9Kfb5N-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="System Logic" vertex="1">
+          <mxGeometry height="1427" width="150" x="553" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="La-a-9KwHDNKzC9Kfb5N-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="Database" vertex="1">
+          <mxGeometry height="1427" width="150" x="753" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="La-a-9KwHDNKzC9Kfb5N-5" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=40" value="loop" vertex="1">
+          <mxGeometry height="98" width="312" x="327" y="382" as="geometry" />
+        </mxCell>
+        <mxCell id="La-a-9KwHDNKzC9Kfb5N-6" parent="La-a-9KwHDNKzC9Kfb5N-5" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[Every Second]" vertex="1">
+          <mxGeometry height="20" width="272" x="40" as="geometry" />
+        </mxCell>
+        <mxCell id="La-a-9KwHDNKzC9Kfb5N-7" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=40" value="loop" vertex="1">
+          <mxGeometry height="284" width="643" x="84" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="La-a-9KwHDNKzC9Kfb5N-8" parent="La-a-9KwHDNKzC9Kfb5N-7" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[Gameplay (Eating)]" vertex="1">
+          <mxGeometry height="20" width="603" x="40" as="geometry" />
+        </mxCell>
+        <mxCell id="La-a-9KwHDNKzC9Kfb5N-9" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" value="alt" vertex="1">
+          <mxGeometry height="568" width="634" x="84" y="784" as="geometry" />
+        </mxCell>
+        <mxCell id="La-a-9KwHDNKzC9Kfb5N-10" parent="La-a-9KwHDNKzC9Kfb5N-9" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[Game Paused]" vertex="1">
+          <mxGeometry height="20" width="604" x="30" as="geometry" />
+        </mxCell>
+        <mxCell id="La-a-9KwHDNKzC9Kfb5N-11" parent="La-a-9KwHDNKzC9Kfb5N-9" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" value="[Game Unpaused]" vertex="1">
+          <mxGeometry height="4" width="634" y="289" as="geometry" />
+        </mxCell>
+        <mxCell id="La-a-9KwHDNKzC9Kfb5N-12" edge="1" parent="1" source="La-a-9KwHDNKzC9Kfb5N-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="La-a-9KwHDNKzC9Kfb5N-2" value="1.1 Initiate Game Start">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="225" y="176" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="La-a-9KwHDNKzC9Kfb5N-13" edge="1" parent="1" source="La-a-9KwHDNKzC9Kfb5N-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="La-a-9KwHDNKzC9Kfb5N-3" value="Start Command">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="492" y="228" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="La-a-9KwHDNKzC9Kfb5N-14" edge="1" parent="1" source="La-a-9KwHDNKzC9Kfb5N-3" style="curved=1;endArrow=block;rounded=0;" target="La-a-9KwHDNKzC9Kfb5N-3" value="1.3 Init Counters &amp; Timer">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="679" y="280" />
+              <mxPoint x="679" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="La-a-9KwHDNKzC9Kfb5N-15" edge="1" parent="1" source="La-a-9KwHDNKzC9Kfb5N-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="La-a-9KwHDNKzC9Kfb5N-2" value="1.2 Load Gameboard &amp; Display">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="495" y="362" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="La-a-9KwHDNKzC9Kfb5N-16" edge="1" parent="1" source="La-a-9KwHDNKzC9Kfb5N-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="La-a-9KwHDNKzC9Kfb5N-2" value="2. Update Elapsed Time">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="495" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="La-a-9KwHDNKzC9Kfb5N-17" edge="1" parent="1" source="La-a-9KwHDNKzC9Kfb5N-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="La-a-9KwHDNKzC9Kfb5N-2" value="3.1 Consume Food">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="225" y="568" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="La-a-9KwHDNKzC9Kfb5N-18" edge="1" parent="1" source="La-a-9KwHDNKzC9Kfb5N-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="La-a-9KwHDNKzC9Kfb5N-3" value="Food Collision Event">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="492" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="La-a-9KwHDNKzC9Kfb5N-19" edge="1" parent="1" source="La-a-9KwHDNKzC9Kfb5N-3" style="curved=1;endArrow=block;rounded=0;" target="La-a-9KwHDNKzC9Kfb5N-3" value="3.2 Update Snake Length">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="679" y="672" />
+              <mxPoint x="679" y="702" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="La-a-9KwHDNKzC9Kfb5N-20" edge="1" parent="1" source="La-a-9KwHDNKzC9Kfb5N-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="La-a-9KwHDNKzC9Kfb5N-2" value="Refresh Score &amp; Snake">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="495" y="754" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="La-a-9KwHDNKzC9Kfb5N-21" edge="1" parent="1" source="La-a-9KwHDNKzC9Kfb5N-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="La-a-9KwHDNKzC9Kfb5N-2" value="4.1 Press Pause Button">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="225" y="862" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="La-a-9KwHDNKzC9Kfb5N-22" edge="1" parent="1" source="La-a-9KwHDNKzC9Kfb5N-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="La-a-9KwHDNKzC9Kfb5N-3" value="Pause Command">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="492" y="914" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="La-a-9KwHDNKzC9Kfb5N-23" edge="1" parent="1" source="La-a-9KwHDNKzC9Kfb5N-3" style="curved=1;endArrow=block;rounded=0;" target="La-a-9KwHDNKzC9Kfb5N-3" value="4.2 Freeze Game State">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="679" y="966" />
+              <mxPoint x="679" y="996" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="La-a-9KwHDNKzC9Kfb5N-24" edge="1" parent="1" source="La-a-9KwHDNKzC9Kfb5N-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="La-a-9KwHDNKzC9Kfb5N-2" value="4.3 Display Pause Screen">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="495" y="1048" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="La-a-9KwHDNKzC9Kfb5N-25" edge="1" parent="1" source="La-a-9KwHDNKzC9Kfb5N-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="La-a-9KwHDNKzC9Kfb5N-2" value="5.1 Press Resume Button">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="225" y="1146" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="La-a-9KwHDNKzC9Kfb5N-26" edge="1" parent="1" source="La-a-9KwHDNKzC9Kfb5N-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="La-a-9KwHDNKzC9Kfb5N-3" value="Resume Command">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="492" y="1198" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="La-a-9KwHDNKzC9Kfb5N-27" edge="1" parent="1" source="La-a-9KwHDNKzC9Kfb5N-3" style="curved=1;endArrow=block;rounded=0;" target="La-a-9KwHDNKzC9Kfb5N-3" value="5.2 Resume Timer">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="679" y="1250" />
+              <mxPoint x="679" y="1280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="La-a-9KwHDNKzC9Kfb5N-28" edge="1" parent="1" source="La-a-9KwHDNKzC9Kfb5N-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="La-a-9KwHDNKzC9Kfb5N-2" value="Update Game State">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="495" y="1332" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="La-a-9KwHDNKzC9Kfb5N-29" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="Precondition: Application is launched" vertex="1">
+          <mxGeometry height="49" width="293" x="70" y="95" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
