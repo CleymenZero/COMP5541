@@ -1,9 +1,155 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6">
   <diagram name="Page-1" id="aHhCAsSXviqwdCsoU9hM">
-    <mxGraphModel>
+    <mxGraphModel dx="2305" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="a9KBPNbyVjrFHfbCmdJ--1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;size=65;" value="User" vertex="1">
+          <mxGeometry height="1338" width="35" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="a9KBPNbyVjrFHfbCmdJ--2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="Game UI Score Screen" vertex="1">
+          <mxGeometry height="1338" width="176" x="301" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="a9KBPNbyVjrFHfbCmdJ--3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="System Logic" vertex="1">
+          <mxGeometry height="1338" width="150" x="546" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="a9KBPNbyVjrFHfbCmdJ--4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="Database" vertex="1">
+          <mxGeometry height="1338" width="150" x="910" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="a9KBPNbyVjrFHfbCmdJ--5" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" value="alt" vertex="1">
+          <mxGeometry height="196" width="386" x="610" y="352" as="geometry" />
+        </mxCell>
+        <mxCell id="a9KBPNbyVjrFHfbCmdJ--6" parent="a9KBPNbyVjrFHfbCmdJ--5" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[Player Role]" vertex="1">
+          <mxGeometry height="20" width="356" x="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a9KBPNbyVjrFHfbCmdJ--7" parent="a9KBPNbyVjrFHfbCmdJ--5" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" value="[Admin Role]" vertex="1">
+          <mxGeometry height="4" width="386" y="103" as="geometry" />
+        </mxCell>
+        <mxCell id="a9KBPNbyVjrFHfbCmdJ--8" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" value="alt" vertex="1">
+          <mxGeometry height="294" width="386" x="610" y="558" as="geometry" />
+        </mxCell>
+        <mxCell id="a9KBPNbyVjrFHfbCmdJ--9" parent="a9KBPNbyVjrFHfbCmdJ--8" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[Data Found]" vertex="1">
+          <mxGeometry height="20" width="356" x="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a9KBPNbyVjrFHfbCmdJ--10" parent="a9KBPNbyVjrFHfbCmdJ--8" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" value="[No Data]" vertex="1">
+          <mxGeometry height="4" width="386" y="103" as="geometry" />
+        </mxCell>
+        <mxCell id="a9KBPNbyVjrFHfbCmdJ--11" parent="a9KBPNbyVjrFHfbCmdJ--8" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" value="[Database Error]" vertex="1">
+          <mxGeometry height="4" width="386" y="201" as="geometry" />
+        </mxCell>
+        <mxCell id="a9KBPNbyVjrFHfbCmdJ--12" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" value="alt" vertex="1">
+          <mxGeometry height="300" width="548" x="84" y="862" as="geometry" />
+        </mxCell>
+        <mxCell id="a9KBPNbyVjrFHfbCmdJ--13" parent="a9KBPNbyVjrFHfbCmdJ--12" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[Success Case]" vertex="1">
+          <mxGeometry height="20" width="518" x="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a9KBPNbyVjrFHfbCmdJ--14" parent="a9KBPNbyVjrFHfbCmdJ--12" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" value="[Failure Case]" vertex="1">
+          <mxGeometry height="4" width="548" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="a9KBPNbyVjrFHfbCmdJ--15" edge="1" parent="1" source="a9KBPNbyVjrFHfbCmdJ--1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="a9KBPNbyVjrFHfbCmdJ--2" value="1. View Score History">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="251" y="176" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a9KBPNbyVjrFHfbCmdJ--16" edge="1" parent="1" source="a9KBPNbyVjrFHfbCmdJ--2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="a9KBPNbyVjrFHfbCmdJ--3" value="Request Score Data">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="514" y="228" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a9KBPNbyVjrFHfbCmdJ--17" edge="1" parent="1" source="a9KBPNbyVjrFHfbCmdJ--3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="a9KBPNbyVjrFHfbCmdJ--4" value="2.1 Retrieve Session ID &amp; User Role">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="812" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a9KBPNbyVjrFHfbCmdJ--18" edge="1" parent="1" source="a9KBPNbyVjrFHfbCmdJ--4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="a9KBPNbyVjrFHfbCmdJ--3" value="2.2 Return User Info">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="815" y="332" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a9KBPNbyVjrFHfbCmdJ--19" edge="1" parent="1" source="a9KBPNbyVjrFHfbCmdJ--3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="a9KBPNbyVjrFHfbCmdJ--4" value="3. Query: WHERE player_id = current_user">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="812" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a9KBPNbyVjrFHfbCmdJ--20" edge="1" parent="1" source="a9KBPNbyVjrFHfbCmdJ--3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="a9KBPNbyVjrFHfbCmdJ--4" value="3. Query: SELECT * FROM games">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="812" y="528" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a9KBPNbyVjrFHfbCmdJ--21" edge="1" parent="1" source="a9KBPNbyVjrFHfbCmdJ--4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="a9KBPNbyVjrFHfbCmdJ--3" value="4. Return Game Data">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="815" y="636" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a9KBPNbyVjrFHfbCmdJ--22" edge="1" parent="1" source="a9KBPNbyVjrFHfbCmdJ--4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="a9KBPNbyVjrFHfbCmdJ--3" value="4. Return Empty Set">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="815" y="734" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a9KBPNbyVjrFHfbCmdJ--23" edge="1" parent="1" source="a9KBPNbyVjrFHfbCmdJ--4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="a9KBPNbyVjrFHfbCmdJ--3" value="4. Return Error">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="815" y="832" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a9KBPNbyVjrFHfbCmdJ--24" edge="1" parent="1" source="a9KBPNbyVjrFHfbCmdJ--3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="a9KBPNbyVjrFHfbCmdJ--2" value="Return Formatted Data">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="517" y="940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a9KBPNbyVjrFHfbCmdJ--25" edge="1" parent="1" source="a9KBPNbyVjrFHfbCmdJ--2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="a9KBPNbyVjrFHfbCmdJ--1" value="5. Display Formatted Scores">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="254" y="992" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a9KBPNbyVjrFHfbCmdJ--26" edge="1" parent="1" source="a9KBPNbyVjrFHfbCmdJ--3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="a9KBPNbyVjrFHfbCmdJ--2" value="Return Error Code">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="517" y="1090" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a9KBPNbyVjrFHfbCmdJ--27" edge="1" parent="1" source="a9KBPNbyVjrFHfbCmdJ--2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="a9KBPNbyVjrFHfbCmdJ--1" value="5. Display Error Message">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="254" y="1142" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a9KBPNbyVjrFHfbCmdJ--28" edge="1" parent="1" source="a9KBPNbyVjrFHfbCmdJ--1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="a9KBPNbyVjrFHfbCmdJ--2" value="6. Review Score History and exit">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="251" y="1253" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a9KBPNbyVjrFHfbCmdJ--29" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="Precondition: User is logged in" vertex="1">
+          <mxGeometry height="49" width="344" x="70" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="a9KBPNbyVjrFHfbCmdJ--30" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="End Use Case (Review Complete)" vertex="1">
+          <mxGeometry height="49" width="940" x="70" y="1172" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
