@@ -103,6 +103,12 @@
         <mxCell id="Xcqm90v9vEsy14yosfEi-11" parent="7baba1c4bc27f4b0-4" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="210" width="10" x="45" y="230" as="geometry" />
         </mxCell>
+        <mxCell id="Xcqm90v9vEsy14yosfEi-17" edge="1" parent="7baba1c4bc27f4b0-4" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="7baba1c4bc27f4b0-3" value="Success Confirmation">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40.5" y="440" as="sourcePoint" />
+            <mxPoint x="-80" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="7baba1c4bc27f4b0-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" value="User" vertex="1">
           <mxGeometry height="770" width="100" x="260" y="80" as="geometry" />
         </mxCell>
@@ -143,12 +149,6 @@
         </mxCell>
         <mxCell id="Xcqm90v9vEsy14yosfEi-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Special Requirement:&lt;div&gt;Hashed Password&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="110" x="740" y="360" as="geometry" />
-        </mxCell>
-        <mxCell id="Xcqm90v9vEsy14yosfEi-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="7baba1c4bc27f4b0-3" value="Success Confirmation">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="820" y="520" as="sourcePoint" />
-            <mxPoint x="740" y="520" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="Xcqm90v9vEsy14yosfEi-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="7baba1c4bc27f4b0-8" value="7. Redirect to main page">
           <mxGeometry relative="1" as="geometry">
