@@ -37,7 +37,7 @@
         <mxCell id="7IKBx19enIWIkQP5hqXk-95" parent="7IKBx19enIWIkQP5hqXk-88" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+logout() : Void" vertex="1">
           <mxGeometry height="32" width="199" y="200" as="geometry" />
         </mxCell>
-        <mxCell id="7IKBx19enIWIkQP5hqXk-96" parent="7IKBx19enIWIkQP5hqXk-88" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+register() : Void" vertex="1">
+        <mxCell id="7IKBx19enIWIkQP5hqXk-96" parent="7IKBx19enIWIkQP5hqXk-88" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+register() : Boolean" vertex="1">
           <mxGeometry height="32" width="199" y="232" as="geometry" />
         </mxCell>
         <mxCell id="7IKBx19enIWIkQP5hqXk-97" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=34.54545454545455;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" value="Player" vertex="1">
